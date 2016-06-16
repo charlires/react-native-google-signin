@@ -33,7 +33,7 @@ project(':react-native-google-signin').projectDir = new File(rootProject.project
 ...
 dependencies {
         classpath 'com.android.tools.build:gradle:1.3.1'
-        classpath 'com.google.gms:google-services:2.1.0' // <--- add this
+        classpath 'com.google.gms:google-services:3.0.0' // <--- add this
     }
 ```
 
@@ -45,9 +45,9 @@ Note: for up-to-date version of this plugin check https://jcenter.bintray.com/co
 ...
 dependencies {
     compile fileTree(dir: "libs", include: ["*.jar"])
-    compile "com.android.support:appcompat-v7:23.0.1"
+    compile "com.android.support:appcompat-v7:+"
     compile "com.facebook.react:react-native:0.18.+"
-    compile "com.google.android.gms:play-services-auth:8.4.0" // <--- add this (optional, only if the app crashes on run)
+    compile "com.google.android.gms:play-services:9.0.0" // <--- add this (optional, only if the app crashes on run)
     compile project(":react-native-google-signin") // <--- add this
 }
 
