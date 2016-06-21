@@ -17,7 +17,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.google.android.gms:play-services-auth:9.0.0'
+    compile 'com.google.android.gms:play-services-auth:+'
     compile "com.android.support:appcompat-v7:+"
     compile "com.facebook.react:react-native:+"
 }
