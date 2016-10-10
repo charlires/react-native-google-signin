@@ -55,6 +55,9 @@ public class RNGoogleSigninModule extends ReactContextBaseJavaModule implements 
         }
     }
 
+    @Overrite
+    public void onNewIntent(Intent intent) { }
+
     @Override
     public String getName() {
         return "RNGoogleSignin";
